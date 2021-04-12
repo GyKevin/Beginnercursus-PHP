@@ -19,5 +19,9 @@
 <a href="h4/index.php">hoofdstuk 4</a>
 <br>
 <a href="h5/index.php">hoofdstuk 5</a>
+<br>
+<a href="h6/index.php">hoofdstuk 6</a>
+<br>
+<a href="test/index.html">test folder</a>
 </body>
 </html>
