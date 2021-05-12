@@ -22,6 +22,8 @@
 <br>
 <a href="h6/index.php">hoofdstuk 6</a>
 <br>
-<a href="test/index.html">test folder</a>
+<a href="h7/index.php">hoofdstuk 7</a>
+<br>
+<a href="loginSystem/index.php">login system testing</a>
 </body>
 </html>

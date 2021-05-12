@@ -7,10 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <input type="text" name="username"> <br>
-        <input type="password" name="password">
-        <input type="submit" name="submit">
+<h1>Welkom, admin</h1>
+<form action="admin-page.php">
+        <input type="submit" name="logout" value="logout">
     </form>
+    <?php
+        if(isset($_GET["logout"])) {
+            session_destroy();
+            header("location: index.php");
+            exit;
+        }
+    ?>
 </body>
 </html>
